@@ -34,8 +34,8 @@ namespace AuthService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddTransient<IUserProvider, UserProvider>();
-            services.AddTransient<IUserRepository,UserRepository>();
+            services.AddScoped<IUserProvider, UserProvider>();
+            services.AddScoped<IUserRepository,UserRepository>();
             services.AddSwaggerGen(o =>
             {
                 o.SwaggerDoc("v1.0", new OpenApiInfo() {Title = "AuthService", Version = "1.0"});
