@@ -24,8 +24,6 @@ namespace MedicalRepresentativeScheduleTest
             schedulepro = new Mock<IRepScheduleProvider>();
         }
 
-
-
         [TestCase("2020/11/12")]
         public void TestControllerLayerCorrectInput(DateTime startdate)
         {
@@ -50,20 +48,6 @@ namespace MedicalRepresentativeScheduleTest
             ObjectResult data = pro.Get(startdate).Result as ObjectResult;
             Assert.AreEqual(404, data.StatusCode);
 
-        }
-
-        [TestCase("2020/11/90")]
-        [TestCase("2020/110/10")]
-        [TestCase("220/11/11")]
-        public void ScheduleMeetingController_InvalidInput(DateTime startdate)
-        {
-
-            var pro = new RepScheduleController(schedulepro.Object);
-            var res = pro.Get(startdate);
-            //var s = res as InternalServerError;
-            //Assert.AreEqual(500, s.StatusCode);
-            Assert.IsNull(res);
-        }
 
     }
 }
