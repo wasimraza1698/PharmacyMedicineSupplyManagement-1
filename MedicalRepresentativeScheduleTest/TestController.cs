@@ -47,6 +47,7 @@ namespace MedicalRepresentativeScheduleTest
             var pro = new RepScheduleController(schedulepro.Object);
             ObjectResult data = pro.Get(startdate).Result as ObjectResult;
             Assert.AreEqual(404, data.StatusCode);
+        }
 
 
     }
