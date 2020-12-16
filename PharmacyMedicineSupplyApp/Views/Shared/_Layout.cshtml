@@ -1,0 +1,52 @@
+﻿@using Microsoft.AspNetCore.Http
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PharmacyMedicineSupply</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-danger navbar-dark pl-5 py-3 pr-5 ">
+            <a class="navbar-brand" asp-controller="User" asp-action="Index">Pharmacy Medicine Supply</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    @if (Context.Session.GetString("userName") != null)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link bg-light text-dark btn mx-2" asp-controller="User" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bg-light text-dark btn mx-2" asp-controller="" asp-action="Index">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle btn mx-2 bg-light text-dark" href="#" id="navbardrop" data-toggle="dropdown">
+                                @Context.Session.GetString("userName")
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" asp-controller="User" asp-action="Logout">Logout</a>
+                            </div>
+                        </li>
+                    }
+                </ul>
+            </div>  
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

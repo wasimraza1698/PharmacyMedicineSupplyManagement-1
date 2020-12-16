@@ -1,0 +1,8 @@
+INFO  11:43:03 Application started. Press Ctrl+C to shut down.
+INFO  11:43:03 Application started. Press Ctrl+C to shut down.
+INFO  11:43:03 Hosting environment: Development
+INFO  11:43:03 Hosting environment: Development
+INFO  11:43:03 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE\Authentication\AuthService
+INFO  11:43:03 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE\Authentication\AuthService
+INFO  11:43:35 Credentials of user : 'John' Received
+INFO  11:43:59 User : 'John' is valid and token returned
