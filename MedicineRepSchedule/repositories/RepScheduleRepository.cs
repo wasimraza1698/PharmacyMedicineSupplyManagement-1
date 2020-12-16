@@ -17,19 +17,18 @@ namespace MedicalRepresentativeSchedule.repositories
         {
             doctors = new List<Doctor>()
              {
-               new Doctor { Name = "D1",ContactNumber=0987654321 , TreatingAilment="Orthopaedics"},
-               new Doctor { Name = "D2",ContactNumber=0987654321 , TreatingAilment="General"},
-               new Doctor { Name = "D3",ContactNumber=0987654321 , TreatingAilment="Gynecology"},
-               new Doctor { Name = "D4",ContactNumber=0987654321 , TreatingAilment="Orthopaedics"},
-               new Doctor { Name = "D5",ContactNumber=0987654321 , TreatingAilment="General"},
-               new Doctor { Name = "D6",ContactNumber=0987654321 , TreatingAilment="Gynecology"},
+               new Doctor { Name = "Doctor1",ContactNumber=987654321 , TreatingAilment="Orthopaedics"},
+               new Doctor { Name = "Doctor2",ContactNumber=987654321 , TreatingAilment="General"},
+               new Doctor { Name = "Doctor3",ContactNumber=987654321 , TreatingAilment="Gynecology"},
+               new Doctor { Name = "Doctor4",ContactNumber=987654321 , TreatingAilment="General"},
+               new Doctor { Name = "Doctor5",ContactNumber=987654321 , TreatingAilment="Gynecology"},
              };
 
             representatives = new List<RepresentativeDetails>()
             {
-                new RepresentativeDetails{RepresentativeName= "R1" },
-                new RepresentativeDetails{RepresentativeName= "R2" },
-                new RepresentativeDetails{RepresentativeName= "R3" }
+                new RepresentativeDetails{RepresentativeName= "Ramesh" },
+                new RepresentativeDetails{RepresentativeName= "Suresh" },
+                new RepresentativeDetails{RepresentativeName= "Girish" }
             };
 
 
