@@ -28,7 +28,7 @@ namespace PharmacyMedicineSupplyService.Controllers
             try
             {
                 var res = await _provider.GetSupply(m);
-                if(res!=null)
+                if(res.Count>0)
                 {
                     _log4net.Info("Pharmacy supply details successfully retrieved and sent.");
                     return Ok(res);
