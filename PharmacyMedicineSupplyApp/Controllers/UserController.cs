@@ -108,5 +108,19 @@ namespace PharmacyMedicineSupply.Controllers
                 return View("Error");
             }
         }
+        
+        public IActionResult Contact()
+        {
+            try
+            {
+                _log.Info("Showing Contact Details");
+                return View("Contact");
+            }
+            catch (Exception e)
+            {
+                _log.Error("Error while showing Contact Page");
+                return View("Error");
+            }
+        }
     }
 }
