@@ -32,11 +32,11 @@ namespace PharmacyMedicineSupply
             services.AddDbContext<PMSContext>(
                 options => options.UseSqlServer(Configuration.GetConnectionString("conn")));
             services.AddSession(options => { options.IdleTimeout = TimeSpan.FromMinutes(30); });
-            services.AddTransient<IUserProvider, UserProvider>();
-            services.AddTransient<IDemandProvider, DemandProvider>();
-            services.AddTransient<IRepScheduleProvider, RepScheduleProvider>();
-            services.AddTransient<IRepScheduleRepo, RepScheduleRepo>();
-            services.AddTransient<ISupplyRepo, SupplyRepo>();
+            services.AddScoped<IUserProvider, UserProvider>();
+            services.AddScoped<IDemandProvider, DemandProvider>();
+            services.AddScoped<IRepScheduleProvider, RepScheduleProvider>();
+            services.AddScoped<IRepScheduleRepo, RepScheduleRepo>();
+            services.AddScoped<ISupplyRepo, SupplyRepo>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
