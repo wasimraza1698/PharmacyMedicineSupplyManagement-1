@@ -26,14 +26,22 @@ namespace PharmacyMedicineSupply.Controllers
         {
             try
             {
-                _log.Info("Displaying Index page of Scheduling");
-                string today = DateTime.Today.Year.ToString()+"-"+DateTime.Today.Month.ToString()+"-"+DateTime.Today.Day;
-                ViewBag.Min = today;
-                return View();
+                if (HttpContext.Session.GetString("token") == null)
+                {
+                    _log.Info("token not found");
+                    return RedirectToAction("Login", "User");
+                }
+                else
+                {
+                    _log.Info("Displaying Index page of Scheduling");
+                    string today = DateTime.Today.Year.ToString() + "-" + DateTime.Today.Month.ToString() + "-" + DateTime.Today.Day;
+                    ViewBag.Min = today;
+                    return View();
+                }
             }
             catch (Exception e)
             {
-                _log.Error("Error in ScheduleController while displaying Index page - "+e.Message);
+                _log.Error("Error in ScheduleController while displaying Index page - " + e.Message);
                 throw;
             }
         }
@@ -42,32 +50,41 @@ namespace PharmacyMedicineSupply.Controllers
         {
             try
             {
-                _token = HttpContext.Session.GetString("token");
-                HttpResponseMessage response = await _repProvider.GetSchedule(dates.Date,_token);
-                if (response.IsSuccessStatusCode)
+                if (HttpContext.Session.GetString("token") == null)
                 {
-                    var result = response.Content.ReadAsStringAsync().Result;
-                    TempData["result"] = result;
-                    return RedirectToAction("Schedule");
-                }
-                else if(response.StatusCode==HttpStatusCode.NotFound)
-                {
-                    _log.Error("could not schedule");
-                    return View("NoSchedule");
-                }
-                else if(response.StatusCode==HttpStatusCode.Unauthorized)
-                {
-                    return View("Unauthorized");
+                    _log.Info("token not found");
+                    return RedirectToAction("Login", "User");
                 }
                 else
                 {
-                    _log.Error("Error occured in Micro-Service called for scheduling");
-                    return View("Error");
+                    _token = HttpContext.Session.GetString("token");
+                    HttpResponseMessage response = await _repProvider.GetSchedule(dates.Date, _token);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var result = response.Content.ReadAsStringAsync().Result;
+                        TempData["result"] = result;
+                        return RedirectToAction("Schedule");
+                    }
+                    else if (response.StatusCode == HttpStatusCode.NotFound)
+                    {
+                        _log.Error("could not schedule");
+                        return View("NoSchedule");
+                    }
+                    else if (response.StatusCode == HttpStatusCode.Unauthorized)
+                    {
+                        _log.Error("Unauthorized response received from the api");
+                        return View("Unauthorized");
+                    }
+                    else
+                    {
+                        _log.Error("Error occured in Micro-Service called for scheduling");
+                        return View("Error");
+                    }
                 }
             }
             catch (Exception e)
             {
-                _log.Error("Error in Schedule Controller while displaying schedule - "+e.Message);
+                _log.Error("Error in Schedule Controller while displaying schedule - " + e.Message);
                 return View("Error");
             }
         }
@@ -76,10 +93,18 @@ namespace PharmacyMedicineSupply.Controllers
         {
             try
             {
-                List<RepSchedule> schedules =
-                    JsonConvert.DeserializeObject<List<RepSchedule>>(TempData["result"].ToString());
-                _repProvider.AddToDb(schedules);
-                return View(schedules);
+                if (HttpContext.Session.GetString("token") == null)
+                {
+                    _log.Info("token not found");
+                    return RedirectToAction("Login", "User");
+                }
+                else
+                {
+                    List<RepSchedule> schedules =
+                        JsonConvert.DeserializeObject<List<RepSchedule>>(TempData["result"].ToString());
+                    _repProvider.AddToDb(schedules);
+                    return View(schedules);
+                }
             }
             catch (Exception e)
             {

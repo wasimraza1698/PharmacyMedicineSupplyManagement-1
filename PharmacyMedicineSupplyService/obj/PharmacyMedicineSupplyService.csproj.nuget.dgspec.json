@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Final\\PharmacyMedicineSupplyManagement\\PharmacyMedicineSupplyService\\PharmacyMedicineSupplyService.csproj": {}
+    "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\PharmacyMedicineSupplyService\\PharmacyMedicineSupplyService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Final\\PharmacyMedicineSupplyManagement\\PharmacyMedicineSupplyService\\PharmacyMedicineSupplyService.csproj": {
+    "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\PharmacyMedicineSupplyService\\PharmacyMedicineSupplyService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Final\\PharmacyMedicineSupplyManagement\\PharmacyMedicineSupplyService\\PharmacyMedicineSupplyService.csproj",
+        "projectUniqueName": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\PharmacyMedicineSupplyService\\PharmacyMedicineSupplyService.csproj",
         "projectName": "PharmacyMedicineSupplyService",
-        "projectPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Final\\PharmacyMedicineSupplyManagement\\PharmacyMedicineSupplyService\\PharmacyMedicineSupplyService.csproj",
+        "projectPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\PharmacyMedicineSupplyService\\PharmacyMedicineSupplyService.csproj",
         "packagesPath": "C:\\Users\\wasim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Final\\PharmacyMedicineSupplyManagement\\PharmacyMedicineSupplyService\\obj\\",
+        "outputPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\PharmacyMedicineSupplyService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wasim\\AppData\\Roaming\\NuGet\\NuGet.Config",

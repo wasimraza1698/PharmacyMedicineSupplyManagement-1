@@ -7,6 +7,9 @@
     <title>@ViewData["Title"] - PharmacyMedicineSupply</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -19,20 +22,38 @@
                 <ul class="navbar-nav">
                     @if (Context.Session.GetString("userName") != null)
                     {
-                        <li class="nav-item">
-                            <a class="nav-link bg-light text-dark btn mx-2" asp-controller="User" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bg-light text-dark btn mx-2" asp-controller="User" asp-action="Contact">Contact</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle btn mx-2 bg-light text-dark" href="#" id="navbardrop" data-toggle="dropdown">
-                                @Context.Session.GetString("userName")
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" asp-controller="User" asp-action="Logout">Logout</a>
-                            </div>
-                        </li>
+                        @if (ViewContext.RouteData.Values["controller"].ToString() == "User" && ViewContext.RouteData.Values["action"].ToString() == "Index")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link bg-light text-dark btn mx-2 active" asp-controller="User" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bg-danger text-light btn mx-2" asp-controller="User" asp-action="Contact">Contact</a>
+                            </li>
+
+                        }
+                        else if ( ViewContext.RouteData.Values["controller"].ToString() == "User" && ViewContext.RouteData.Values["action"].ToString() == "Contact")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link bg-danger text-light btn mx-2" asp-controller="User" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bg-light text-dark btn mx-2 active" asp-controller="User" asp-action="Contact">Contact</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link bg-danger text-light btn mx-2" asp-controller="User" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bg-danger text-light btn mx-2" asp-controller="User" asp-action="Contact">Contact</a>
+                            </li>
+                            
+                        }
+                        <a class="btn btn-danger" title="sign-out" asp-controller="User" asp-action="Logout">
+                            <span class="fas fa-sign-out-alt"></span> @Context.Session.GetString("userName")
+                        </a>
                     }
                 </ul>
             </div>  

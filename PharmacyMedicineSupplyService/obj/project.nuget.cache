@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5mjokuMVqvcfr3b1vROhBJHHYXFyPP9YgGN8pxv7jf6pYeVWv+M9ZPqNzj6Pp75pbGf8BfFYRv0WK58hRQ/FLw==",
+  "dgSpecHash": "HGGQzIItr7YbUKYSGQV0VZBgIiF090yhuV1lnLgyGHXwR8cb0td2prPFE6heFYSr+5a8KjkSkX/VQnPkE7LYug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Final\\PharmacyMedicineSupplyManagement\\PharmacyMedicineSupplyService\\PharmacyMedicineSupplyService.csproj",
+  "projectFilePath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\PharmacyMedicineSupplyService\\PharmacyMedicineSupplyService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wasim\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\wasim\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.0.0\\microsoft.aspnetcore.authentication.jwtbearer.3.0.0.nupkg.sha512",

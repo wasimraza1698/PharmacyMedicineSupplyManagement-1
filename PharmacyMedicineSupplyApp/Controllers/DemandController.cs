@@ -35,8 +35,7 @@ namespace PharmacyMedicineSupply.Controllers
                 else
                 {
                     _log.Info("Displaying Schedule input page");
-                    _token = HttpContext.Session.GetString("token");
-                    _response = await _demandProvider.GetStock(_token);
+                    _response = await _demandProvider.GetStock();
                     if(_response.IsSuccessStatusCode)
                     {
                         _log.Info("stock received");
@@ -91,7 +90,7 @@ namespace PharmacyMedicineSupply.Controllers
                     else if(_response.StatusCode==HttpStatusCode.NotFound)
                     {
                         _log.Error("error while getting supply");
-                        return View("NoStock");
+                        return View("NoSupply");
                     }
                     else if (_response.StatusCode == HttpStatusCode.Unauthorized)
                     {

@@ -9059,11 +9059,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE\\PharmacyMedicineSupplyApp\\PharmacyMedicineSupply.csproj",
+      "projectUniqueName": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\PharmacyMedicineSupplyApp\\PharmacyMedicineSupply.csproj",
       "projectName": "PharmacyMedicineSupply",
-      "projectPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE\\PharmacyMedicineSupplyApp\\PharmacyMedicineSupply.csproj",
+      "projectPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\PharmacyMedicineSupplyApp\\PharmacyMedicineSupply.csproj",
       "packagesPath": "C:\\Users\\wasim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE\\PharmacyMedicineSupplyApp\\obj\\",
+      "outputPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\PharmacyMedicineSupplyApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wasim\\AppData\\Roaming\\NuGet\\NuGet.Config",

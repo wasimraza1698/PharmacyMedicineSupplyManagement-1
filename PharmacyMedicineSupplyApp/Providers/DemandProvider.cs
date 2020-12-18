@@ -43,7 +43,7 @@ namespace PharmacyMedicineSupply.Providers
             }
         }
 
-        public async Task<HttpResponseMessage> GetStock(string token)
+        public async Task<HttpResponseMessage> GetStock()
         {
             try
             {
@@ -65,7 +65,7 @@ namespace PharmacyMedicineSupply.Providers
                 List<MedicineDemand> demands = new List<MedicineDemand>();
                 foreach (var stock in stocks)
                 {
-                    MedicineDemand demand = new MedicineDemand(){MedicineName = stock.Name,Count = stock.NumberOfTabletsInStock};
+                    MedicineDemand demand = new MedicineDemand(){MedicineName = stock.Name,Count = 0};
                     demands.Add(demand);
                 }
                 _log.Info("stock converted to demand");

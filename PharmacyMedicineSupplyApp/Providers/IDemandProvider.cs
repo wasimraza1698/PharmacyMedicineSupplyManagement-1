@@ -9,7 +9,7 @@ namespace PharmacyMedicineSupply.Providers
 {
     public interface IDemandProvider
     {
-        public Task<HttpResponseMessage> GetStock(string token);
+        public Task<HttpResponseMessage> GetStock();
         public Task<HttpResponseMessage> GetSupply(List<MedicineDemand> demands,string token);
         public List<MedicineDemand> GetDemand(List<MedicineStock> stocks);
         public void AddSupplyToDB(List<Supply> supplies);

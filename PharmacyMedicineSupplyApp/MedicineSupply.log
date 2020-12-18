@@ -1,0 +1,692 @@
+﻿INFO  12-17 09:06:09 Application started. Press Ctrl+C to shut down.
+INFO  12-17 09:06:09 Application started. Press Ctrl+C to shut down.
+INFO  12-17 09:06:09 Hosting environment: Development
+INFO  12-17 09:06:09 Hosting environment: Development
+INFO  12-17 09:06:09 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-17 09:06:09 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-17 09:06:09 token not found
+INFO  12-17 09:06:09 Displaying Login Page
+INFO  12-17 09:11:10 Application started. Press Ctrl+C to shut down.
+INFO  12-17 09:11:10 Application started. Press Ctrl+C to shut down.
+INFO  12-17 09:11:10 Hosting environment: Development
+INFO  12-17 09:11:10 Hosting environment: Development
+INFO  12-17 09:11:10 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-17 09:11:10 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-17 09:11:10 token not found
+INFO  12-17 09:11:11 Displaying Login Page
+INFO  12-17 09:11:33 success response received
+INFO  12-17 09:11:41 Displaying Index page of Scheduling
+INFO  12-17 09:11:49 response received
+INFO  12-17 09:11:49 Adding schedule to database
+INFO  12-17 09:11:51 Adding schedule to database
+INFO  12-17 09:11:51 Adding schedule to database
+INFO  12-17 09:11:51 Adding schedule to database
+INFO  12-17 09:11:51 Adding schedule to database
+INFO  12-17 09:11:56 Displaying Home Page
+INFO  12-17 09:11:58 Displaying Schedule input page
+INFO  12-17 09:11:58 response received
+INFO  12-17 09:11:58 stock received
+INFO  12-17 09:11:58 stock converted to demand
+INFO  12-17 09:12:02 response received
+INFO  12-17 09:12:02 Supply received
+INFO  12-17 09:12:02 Displaying Supply List
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:02 Adding supplies to database
+INFO  12-17 09:12:06 Displaying Home Page
+INFO  12-17 09:13:22 Logging out user : John
+INFO  12-17 09:13:24 Displaying Login Page
+INFO  12-17 09:13:26 success response received
+INFO  12-17 09:13:28 Displaying Index page of Scheduling
+INFO  12-17 09:13:41 response received
+INFO  12-17 09:13:41 Adding schedule to database
+INFO  12-17 09:13:41 Adding schedule to database
+INFO  12-17 09:13:41 Adding schedule to database
+INFO  12-17 09:13:41 Adding schedule to database
+INFO  12-17 09:13:41 Adding schedule to database
+INFO  12-17 09:13:49 Displaying Home Page
+INFO  12-17 09:16:35 Application started. Press Ctrl+C to shut down.
+INFO  12-17 09:16:35 Application started. Press Ctrl+C to shut down.
+INFO  12-17 09:16:35 Hosting environment: Development
+INFO  12-17 09:16:35 Hosting environment: Development
+INFO  12-17 09:16:35 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-17 09:16:35 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-17 09:16:36 token not found
+INFO  12-17 09:16:36 Displaying Login Page
+INFO  12-17 09:16:42 success response received
+INFO  12-17 09:16:45 Displaying Index page of Scheduling
+INFO  12-17 09:16:51 response received
+INFO  12-17 09:19:55 Application started. Press Ctrl+C to shut down.
+INFO  12-17 09:19:55 Application started. Press Ctrl+C to shut down.
+INFO  12-17 09:19:55 Hosting environment: Development
+INFO  12-17 09:19:55 Hosting environment: Development
+INFO  12-17 09:19:55 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-17 09:19:55 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-17 09:19:55 token not found
+INFO  12-17 09:19:56 Displaying Login Page
+INFO  12-17 09:20:00 success response received
+INFO  12-17 09:20:02 Displaying Index page of Scheduling
+INFO  12-17 09:20:07 response received
+ERROR 12-17 09:20:07 Unauthorized response received from the api
+INFO  12-18 12:30:25 Application started. Press Ctrl+C to shut down.
+INFO  12-18 12:30:25 Application started. Press Ctrl+C to shut down.
+INFO  12-18 12:30:25 Hosting environment: Development
+INFO  12-18 12:30:25 Hosting environment: Development
+INFO  12-18 12:30:25 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 12:30:25 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 12:30:26 token not found
+INFO  12-18 12:30:26 Displaying Login Page
+INFO  12-18 12:31:12 success response received
+INFO  12-18 12:32:08 success response received
+INFO  12-18 12:32:50 success response received
+INFO  12-18 12:33:39 Displaying Index page of Scheduling
+INFO  12-18 12:39:22 Application started. Press Ctrl+C to shut down.
+INFO  12-18 12:39:22 Application started. Press Ctrl+C to shut down.
+INFO  12-18 12:39:22 Hosting environment: Development
+INFO  12-18 12:39:22 Hosting environment: Development
+INFO  12-18 12:39:22 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 12:39:22 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 12:39:22 token not found
+INFO  12-18 12:39:22 Displaying Login Page
+INFO  12-18 12:39:26 success response received
+INFO  12-18 12:47:56 success response received
+INFO  12-18 12:49:05 Logging out user : John
+INFO  12-18 12:49:07 Displaying Login Page
+INFO  12-18 12:49:10 success response received
+INFO  12-18 12:51:45 success response received
+INFO  12-18 12:52:38 success response received
+INFO  12-18 12:54:35 success response received
+INFO  12-18 01:21:01 Application started. Press Ctrl+C to shut down.
+INFO  12-18 01:21:01 Application started. Press Ctrl+C to shut down.
+INFO  12-18 01:21:01 Hosting environment: Development
+INFO  12-18 01:21:01 Hosting environment: Development
+INFO  12-18 01:21:01 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 01:21:01 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 01:21:02 token not found
+INFO  12-18 01:21:02 Displaying Login Page
+INFO  12-18 01:21:07 success response received
+INFO  12-18 01:21:23 Displaying Home Page
+INFO  12-18 01:21:26 Showing Contact Details
+INFO  12-18 01:21:29 Displaying Home Page
+INFO  12-18 01:21:33 Displaying Home Page
+INFO  12-18 01:21:34 Showing Contact Details
+INFO  12-18 01:21:37 Displaying Home Page
+INFO  12-18 01:21:44 Showing Contact Details
+INFO  12-18 01:21:46 Displaying Home Page
+INFO  12-18 01:22:41 Displaying Home Page
+INFO  12-18 01:22:55 Showing Contact Details
+INFO  12-18 01:22:57 Displaying Home Page
+INFO  12-18 01:23:00 Showing Contact Details
+INFO  12-18 01:23:02 Displaying Home Page
+INFO  12-18 01:24:08 Displaying Schedule input page
+INFO  12-18 01:24:08 response received
+INFO  12-18 01:24:08 stock received
+INFO  12-18 01:24:08 stock converted to demand
+INFO  12-18 01:24:25 Showing Contact Details
+INFO  12-18 01:24:27 Logging out user : John
+INFO  12-18 01:24:29 Displaying Login Page
+INFO  12-18 01:24:31 success response received
+INFO  12-18 01:25:02 Logging out user : John
+INFO  12-18 01:25:04 Displaying Login Page
+INFO  12-18 01:25:06 success response received
+INFO  12-18 01:25:09 Displaying Home Page
+INFO  12-18 01:25:15 Displaying Home Page
+INFO  12-18 01:25:17 Showing Contact Details
+INFO  12-18 01:25:21 Displaying Home Page
+INFO  12-18 01:25:23 Displaying Index page of Scheduling
+INFO  12-18 01:25:29 Displaying Home Page
+INFO  12-18 01:27:15 Displaying Home Page
+INFO  12-18 01:27:20 Displaying Home Page
+INFO  12-18 01:27:23 Showing Contact Details
+INFO  12-18 01:27:26 Displaying Home Page
+INFO  12-18 01:27:26 Displaying Home Page
+INFO  12-18 01:27:26 Displaying Home Page
+INFO  12-18 01:31:03 Application started. Press Ctrl+C to shut down.
+INFO  12-18 01:31:03 Application started. Press Ctrl+C to shut down.
+INFO  12-18 01:31:03 Hosting environment: Development
+INFO  12-18 01:31:03 Hosting environment: Development
+INFO  12-18 01:31:03 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 01:31:03 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 01:31:04 token not found
+INFO  12-18 01:31:04 Displaying Login Page
+INFO  12-18 01:31:09 success response received
+INFO  12-18 01:31:09 Displaying Home Page
+INFO  12-18 01:31:15 Showing Contact Details
+INFO  12-18 01:31:24 Displaying Home Page
+INFO  12-18 01:49:44 Displaying Home Page
+INFO  12-18 01:49:56 Showing Contact Details
+INFO  12-18 01:50:00 Displaying Home Page
+INFO  12-18 01:50:41 Showing Contact Details
+INFO  12-18 01:50:48 Displaying Home Page
+INFO  12-18 01:50:51 Displaying Schedule input page
+INFO  12-18 01:50:51 response received
+INFO  12-18 01:50:51 stock received
+INFO  12-18 01:50:51 stock converted to demand
+INFO  12-18 01:51:10 Showing Contact Details
+INFO  12-18 01:52:54 Showing Contact Details
+INFO  12-18 01:52:58 Displaying Home Page
+INFO  12-18 01:53:02 Displaying Home Page
+INFO  12-18 01:53:03 Displaying Home Page
+INFO  12-18 01:53:05 Showing Contact Details
+INFO  12-18 01:53:07 Displaying Home Page
+INFO  12-18 01:53:09 Showing Contact Details
+INFO  12-18 01:53:11 Displaying Home Page
+INFO  12-18 01:53:12 Showing Contact Details
+INFO  12-18 01:53:13 Displaying Home Page
+INFO  12-18 01:53:17 Showing Contact Details
+INFO  12-18 01:53:21 Displaying Home Page
+INFO  12-18 01:54:08 Displaying Home Page
+INFO  12-18 01:54:15 Showing Contact Details
+INFO  12-18 01:54:20 Displaying Home Page
+INFO  12-18 01:54:28 Showing Contact Details
+INFO  12-18 01:54:37 Displaying Home Page
+INFO  12-18 01:54:59 Showing Contact Details
+INFO  12-18 01:55:05 Displaying Home Page
+INFO  12-18 01:55:43 Displaying Index page of Scheduling
+INFO  12-18 01:56:09 Displaying Index page of Scheduling
+INFO  12-18 01:56:12 Displaying Home Page
+INFO  12-18 01:56:13 Showing Contact Details
+INFO  12-18 01:56:16 Displaying Home Page
+INFO  12-18 01:57:42 Showing Contact Details
+INFO  12-18 01:58:41 Displaying Home Page
+INFO  12-18 02:01:41 Application started. Press Ctrl+C to shut down.
+INFO  12-18 02:01:41 Application started. Press Ctrl+C to shut down.
+INFO  12-18 02:01:41 Hosting environment: Development
+INFO  12-18 02:01:41 Hosting environment: Development
+INFO  12-18 02:01:41 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 02:01:41 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 02:01:41 token not found
+INFO  12-18 02:01:41 Displaying Login Page
+INFO  12-18 02:01:45 success response received
+INFO  12-18 02:01:45 Displaying Home Page
+INFO  12-18 02:03:34 Displaying Home Page
+INFO  12-18 02:03:53 Displaying Index page of Scheduling
+INFO  12-18 02:04:00 Showing Contact Details
+INFO  12-18 02:13:07 Application started. Press Ctrl+C to shut down.
+INFO  12-18 02:13:07 Application started. Press Ctrl+C to shut down.
+INFO  12-18 02:13:07 Hosting environment: Development
+INFO  12-18 02:13:07 Hosting environment: Development
+INFO  12-18 02:13:07 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 02:13:07 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 02:13:08 token not found
+INFO  12-18 02:13:08 Displaying Login Page
+INFO  12-18 02:13:12 success response received
+INFO  12-18 02:13:12 Displaying Home Page
+INFO  12-18 02:13:20 Showing Contact Details
+INFO  12-18 02:13:24 Displaying Home Page
+INFO  12-18 02:13:26 Displaying Schedule input page
+INFO  12-18 02:13:26 response received
+INFO  12-18 02:13:26 stock received
+INFO  12-18 02:13:26 stock converted to demand
+INFO  12-18 02:13:32 response received
+INFO  12-18 02:13:32 Supply received
+INFO  12-18 02:13:32 Displaying Supply List
+INFO  12-18 02:13:32 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:35 Adding supplies to database
+INFO  12-18 02:13:51 Displaying Schedule input page
+INFO  12-18 02:13:51 response received
+INFO  12-18 02:13:51 stock received
+INFO  12-18 02:13:51 stock converted to demand
+INFO  12-18 02:14:05 Displaying Home Page
+INFO  12-18 02:14:09 Displaying Index page of Scheduling
+INFO  12-18 02:14:40 Showing Contact Details
+INFO  12-18 02:14:43 Displaying Home Page
+INFO  12-18 02:18:57 Displaying Home Page
+INFO  12-18 02:19:14 Showing Contact Details
+INFO  12-18 02:19:19 Displaying Home Page
+INFO  12-18 02:20:11 Displaying Home Page
+INFO  12-18 02:20:18 Logging out user : John
+INFO  12-18 02:20:20 Displaying Login Page
+INFO  12-18 02:20:22 success response received
+INFO  12-18 02:20:22 Displaying Home Page
+INFO  12-18 02:21:01 Displaying Home Page
+INFO  12-18 02:21:12 Showing Contact Details
+INFO  12-18 02:25:34 Displaying Home Page
+INFO  12-18 02:26:00 Displaying Home Page
+INFO  12-18 02:31:36 Displaying Home Page
+INFO  12-18 02:31:45 Logging out user : John
+INFO  12-18 02:31:48 Displaying Login Page
+INFO  12-18 02:31:50 success response received
+INFO  12-18 02:31:50 Displaying Home Page
+INFO  12-18 02:31:52 Showing Contact Details
+INFO  12-18 02:31:54 Displaying Home Page
+INFO  12-18 02:32:21 Displaying Home Page
+INFO  12-18 02:32:26 Logging out user : John
+INFO  12-18 02:32:28 Displaying Login Page
+INFO  12-18 02:32:30 success response received
+INFO  12-18 02:32:30 Displaying Home Page
+INFO  12-18 02:32:33 Displaying Index page of Scheduling
+INFO  12-18 02:32:35 Logging out user : John
+INFO  12-18 02:32:37 token not found
+INFO  12-18 02:32:37 Displaying Login Page
+INFO  12-18 02:32:40 success response received
+INFO  12-18 02:32:40 Displaying Home Page
+INFO  12-18 02:32:44 Showing Contact Details
+INFO  12-18 02:32:46 Displaying Home Page
+INFO  12-18 02:32:48 Displaying Index page of Scheduling
+INFO  12-18 02:32:51 Displaying Home Page
+INFO  12-18 02:32:53 Displaying Schedule input page
+INFO  12-18 02:32:53 response received
+INFO  12-18 02:32:53 stock received
+INFO  12-18 02:32:53 stock converted to demand
+INFO  12-18 02:33:35 Showing Contact Details
+INFO  12-18 02:33:43 Displaying Home Page
+INFO  12-18 02:33:53 Showing Contact Details
+INFO  12-18 02:34:00 Displaying Home Page
+INFO  12-18 09:20:26 Application started. Press Ctrl+C to shut down.
+INFO  12-18 09:20:26 Application started. Press Ctrl+C to shut down.
+INFO  12-18 09:20:26 Hosting environment: Development
+INFO  12-18 09:20:26 Hosting environment: Development
+INFO  12-18 09:20:26 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 09:20:26 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 09:20:26 token not found
+INFO  12-18 09:20:27 Displaying Login Page
+INFO  12-18 09:20:44 success response received
+INFO  12-18 09:20:44 Displaying Home Page
+INFO  12-18 09:21:02 Displaying Index page of Scheduling
+INFO  12-18 09:21:05 response received
+ERROR 12-18 09:21:05 Unauthorized response received from the api
+INFO  12-18 09:24:46 Application started. Press Ctrl+C to shut down.
+INFO  12-18 09:24:46 Application started. Press Ctrl+C to shut down.
+INFO  12-18 09:24:46 Hosting environment: Development
+INFO  12-18 09:24:46 Hosting environment: Development
+INFO  12-18 09:24:46 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 09:24:46 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 09:24:46 token not found
+INFO  12-18 09:24:46 Displaying Login Page
+INFO  12-18 09:24:52 success response received
+INFO  12-18 09:24:52 Displaying Home Page
+INFO  12-18 09:24:58 Displaying Schedule input page
+INFO  12-18 09:24:58 response received
+INFO  12-18 09:24:58 stock received
+INFO  12-18 09:24:58 stock converted to demand
+INFO  12-18 09:25:18 response received
+INFO  12-18 09:25:18 Supply received
+INFO  12-18 09:25:19 Displaying Supply List
+INFO  12-18 09:25:19 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:22 Adding supplies to database
+INFO  12-18 09:25:28 Displaying Home Page
+INFO  12-18 09:25:31 Displaying Index page of Scheduling
+INFO  12-18 09:25:38 response received
+INFO  12-18 09:25:38 Adding schedule to database
+INFO  12-18 09:25:38 Adding schedule to database
+INFO  12-18 09:25:38 Adding schedule to database
+INFO  12-18 09:25:38 Adding schedule to database
+INFO  12-18 09:25:38 Adding schedule to database
+INFO  12-18 09:25:43 Showing Contact Details
+INFO  12-18 09:25:48 Displaying Home Page
+INFO  12-18 09:25:50 Logging out user : John
+INFO  12-18 09:25:52 Displaying Login Page
+INFO  12-18 09:28:11 success response received
+INFO  12-18 09:28:11 Displaying Home Page
+INFO  12-18 09:28:16 Showing Contact Details
+INFO  12-18 09:28:20 Displaying Home Page
+INFO  12-18 09:28:21 Displaying Schedule input page
+INFO  12-18 09:28:21 response received
+INFO  12-18 09:28:21 stock received
+INFO  12-18 09:28:21 stock converted to demand
+INFO  12-18 09:28:34 Displaying Index page of Scheduling
+INFO  12-18 09:34:39 Application started. Press Ctrl+C to shut down.
+INFO  12-18 09:34:39 Application started. Press Ctrl+C to shut down.
+INFO  12-18 09:34:39 Hosting environment: Development
+INFO  12-18 09:34:39 Hosting environment: Development
+INFO  12-18 09:34:39 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 09:34:39 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 09:34:39 token not found
+INFO  12-18 09:34:39 Displaying Login Page
+INFO  12-18 09:35:37 success response received
+INFO  12-18 09:35:37 Displaying Home Page
+INFO  12-18 09:35:52 Displaying Schedule input page
+INFO  12-18 09:35:52 response received
+INFO  12-18 09:35:52 stock received
+INFO  12-18 09:35:52 stock converted to demand
+INFO  12-18 09:36:35 response received
+INFO  12-18 09:36:35 Supply received
+INFO  12-18 09:36:35 Displaying Supply List
+INFO  12-18 09:36:35 Adding supplies to database
+INFO  12-18 09:36:37 Adding supplies to database
+INFO  12-18 09:36:37 Adding supplies to database
+INFO  12-18 09:36:37 Adding supplies to database
+INFO  12-18 09:36:37 Adding supplies to database
+INFO  12-18 09:36:37 Adding supplies to database
+INFO  12-18 09:36:40 Displaying Home Page
+INFO  12-18 09:36:42 Displaying Index page of Scheduling
+INFO  12-18 09:38:30 response received
+INFO  12-18 09:38:30 Adding schedule to database
+INFO  12-18 09:38:30 Adding schedule to database
+INFO  12-18 09:38:30 Adding schedule to database
+INFO  12-18 09:38:30 Adding schedule to database
+INFO  12-18 09:38:30 Adding schedule to database
+INFO  12-18 09:39:24 Logging out user : John
+INFO  12-18 09:39:26 Displaying Login Page
+INFO  12-18 09:40:09 success response received
+INFO  12-18 09:40:09 Displaying Home Page
+INFO  12-18 09:40:18 Displaying Login Page
+INFO  12-18 09:44:27 Application started. Press Ctrl+C to shut down.
+INFO  12-18 09:44:27 Application started. Press Ctrl+C to shut down.
+INFO  12-18 09:44:27 Hosting environment: Development
+INFO  12-18 09:44:27 Hosting environment: Development
+INFO  12-18 09:44:27 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 09:44:27 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 09:44:27 token not found
+INFO  12-18 09:44:27 Displaying Login Page
+INFO  12-18 09:44:33 success response received
+INFO  12-18 09:44:33 Displaying Home Page
+INFO  12-18 09:44:35 Already logged in
+INFO  12-18 09:44:56 Displaying Index page of Scheduling
+INFO  12-18 09:45:07 response received
+ERROR 12-18 09:45:07 Error occured in Micro-Service called for scheduling
+INFO  12-18 09:45:20 Displaying Home Page
+INFO  12-18 09:45:22 Displaying Schedule input page
+INFO  12-18 09:45:22 response received
+INFO  12-18 09:45:22 stock received
+INFO  12-18 09:45:22 stock converted to demand
+INFO  12-18 09:45:28 response received
+INFO  12-18 09:45:28 Supply received
+INFO  12-18 09:45:28 Displaying Supply List
+INFO  12-18 09:45:28 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:30 Adding supplies to database
+INFO  12-18 09:45:36 Logging out user : John
+INFO  12-18 09:45:37 Displaying Login Page
+INFO  12-18 09:45:40 success response received
+INFO  12-18 09:45:40 Displaying Home Page
+INFO  12-18 09:45:41 Displaying Schedule input page
+INFO  12-18 09:45:41 response received
+INFO  12-18 09:45:41 stock received
+INFO  12-18 09:45:41 stock converted to demand
+INFO  12-18 09:45:43 response received
+INFO  12-18 09:45:43 Supply received
+INFO  12-18 09:45:43 Displaying Supply List
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:43 Adding supplies to database
+INFO  12-18 09:45:44 Displaying Supply List
+INFO  12-18 09:55:21 Application started. Press Ctrl+C to shut down.
+INFO  12-18 09:55:21 Application started. Press Ctrl+C to shut down.
+INFO  12-18 09:55:21 Hosting environment: Development
+INFO  12-18 09:55:21 Hosting environment: Development
+INFO  12-18 09:55:21 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 09:55:21 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 09:55:21 token not found
+INFO  12-18 09:55:21 Displaying Login Page
+INFO  12-18 09:55:27 success response received
+INFO  12-18 09:55:27 Displaying Home Page
+INFO  12-18 09:55:31 Displaying Schedule input page
+INFO  12-18 09:55:31 response received
+INFO  12-18 09:55:31 stock received
+INFO  12-18 09:55:31 stock converted to demand
+INFO  12-18 09:55:36 response received
+INFO  12-18 09:55:36 Supply received
+INFO  12-18 09:56:47 Application started. Press Ctrl+C to shut down.
+INFO  12-18 09:56:47 Application started. Press Ctrl+C to shut down.
+INFO  12-18 09:56:47 Hosting environment: Development
+INFO  12-18 09:56:47 Hosting environment: Development
+INFO  12-18 09:56:47 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 09:56:47 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 09:56:47 token not found
+INFO  12-18 09:56:48 Displaying Login Page
+INFO  12-18 09:59:09 success response received
+INFO  12-18 09:59:09 Displaying Home Page
+INFO  12-18 09:59:17 Displaying Index page of Scheduling
+INFO  12-18 09:59:27 response received
+INFO  12-18 09:59:27 Adding schedule to database
+INFO  12-18 09:59:30 Adding schedule to database
+INFO  12-18 09:59:30 Adding schedule to database
+INFO  12-18 09:59:30 Adding schedule to database
+INFO  12-18 09:59:30 Adding schedule to database
+INFO  12-18 09:59:35 Displaying Home Page
+INFO  12-18 09:59:37 Displaying Index page of Scheduling
+INFO  12-18 09:59:40 response received
+ERROR 12-18 09:59:40 Error occured in Micro-Service called for scheduling
+INFO  12-18 09:59:45 Displaying Home Page
+INFO  12-18 09:59:47 Displaying Schedule input page
+INFO  12-18 09:59:47 response received
+INFO  12-18 09:59:47 stock received
+INFO  12-18 09:59:47 stock converted to demand
+INFO  12-18 10:00:59 Application started. Press Ctrl+C to shut down.
+INFO  12-18 10:00:59 Application started. Press Ctrl+C to shut down.
+INFO  12-18 10:00:59 Hosting environment: Development
+INFO  12-18 10:00:59 Hosting environment: Development
+INFO  12-18 10:00:59 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 10:00:59 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 10:01:00 token not found
+INFO  12-18 10:01:00 Displaying Login Page
+INFO  12-18 10:01:05 success response received
+INFO  12-18 10:01:05 Displaying Home Page
+INFO  12-18 10:01:10 Displaying Schedule input page
+INFO  12-18 10:01:11 response received
+INFO  12-18 10:01:11 stock received
+INFO  12-18 10:01:11 stock converted to demand
+INFO  12-18 10:01:46 response received
+INFO  12-18 10:01:46 Supply received
+INFO  12-18 10:01:46 Displaying Supply List
+INFO  12-18 10:01:46 Adding supplies to database
+INFO  12-18 10:01:48 Adding supplies to database
+INFO  12-18 10:01:48 Adding supplies to database
+INFO  12-18 10:01:48 Adding supplies to database
+INFO  12-18 10:01:48 Adding supplies to database
+INFO  12-18 10:01:48 Adding supplies to database
+INFO  12-18 10:01:48 Adding supplies to database
+INFO  12-18 10:01:48 Adding supplies to database
+INFO  12-18 10:01:48 Adding supplies to database
+INFO  12-18 10:01:56 Showing Contact Details
+INFO  12-18 10:02:05 Logging out user : John
+INFO  12-18 10:02:11 Displaying Login Page
+INFO  12-18 10:03:36 Application started. Press Ctrl+C to shut down.
+INFO  12-18 10:03:36 Application started. Press Ctrl+C to shut down.
+INFO  12-18 10:03:36 Hosting environment: Development
+INFO  12-18 10:03:36 Hosting environment: Development
+INFO  12-18 10:03:36 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 10:03:36 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 10:03:37 token not found
+INFO  12-18 10:03:37 Displaying Login Page
+INFO  12-18 10:03:41 success response received
+INFO  12-18 10:03:41 Displaying Home Page
+INFO  12-18 10:03:45 Displaying Index page of Scheduling
+INFO  12-18 10:03:51 response received
+ERROR 12-18 10:03:51 Unauthorized response received from the api
+INFO  12-18 10:03:58 Logging out user : John
+INFO  12-18 10:09:25 Application started. Press Ctrl+C to shut down.
+INFO  12-18 10:09:25 Application started. Press Ctrl+C to shut down.
+INFO  12-18 10:09:25 Hosting environment: Development
+INFO  12-18 10:09:25 Hosting environment: Development
+INFO  12-18 10:09:25 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 10:09:25 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 10:09:26 token not found
+INFO  12-18 10:09:26 Displaying Login Page
+INFO  12-18 10:10:07 invalid username or password for user : John
+INFO  12-18 10:10:41 success response received
+INFO  12-18 10:10:41 Displaying Home Page
+INFO  12-18 10:11:27 Displaying Schedule input page
+INFO  12-18 10:11:27 response received
+INFO  12-18 10:11:27 stock received
+INFO  12-18 10:11:27 stock converted to demand
+INFO  12-18 10:11:31 response received
+ERROR 12-18 10:11:31 error while getting supply
+INFO  12-18 10:11:45 Displaying Schedule input page
+INFO  12-18 10:11:45 response received
+INFO  12-18 10:11:45 stock received
+INFO  12-18 10:11:45 stock converted to demand
+INFO  12-18 10:12:40 response received
+ERROR 12-18 10:12:40 error while getting supply
+INFO  12-18 10:13:17 Displaying Home Page
+INFO  12-18 10:32:10 Application started. Press Ctrl+C to shut down.
+INFO  12-18 10:32:11 Application started. Press Ctrl+C to shut down.
+INFO  12-18 10:32:11 Hosting environment: Development
+INFO  12-18 10:32:11 Hosting environment: Development
+INFO  12-18 10:32:11 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 10:32:11 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 10:32:11 token not found
+INFO  12-18 10:32:11 Displaying Login Page
+INFO  12-18 10:32:58 success response received
+INFO  12-18 10:32:58 Displaying Home Page
+INFO  12-18 10:33:18 Showing Contact Details
+INFO  12-18 10:33:20 Displaying Home Page
+INFO  12-18 10:33:23 Displaying Schedule input page
+INFO  12-18 10:33:23 response received
+INFO  12-18 10:33:23 stock received
+INFO  12-18 10:33:23 stock converted to demand
+INFO  12-18 10:33:31 response received
+INFO  12-18 10:33:31 Supply received
+INFO  12-18 10:33:32 Displaying Supply List
+INFO  12-18 10:33:32 Adding supplies to database
+INFO  12-18 10:33:35 Adding supplies to database
+INFO  12-18 10:33:35 Adding supplies to database
+INFO  12-18 10:33:40 Displaying Home Page
+INFO  12-18 10:33:42 Displaying Index page of Scheduling
+INFO  12-18 10:33:52 response received
+INFO  12-18 10:33:52 Adding schedule to database
+INFO  12-18 10:33:52 Adding schedule to database
+INFO  12-18 10:33:52 Adding schedule to database
+INFO  12-18 10:33:52 Adding schedule to database
+INFO  12-18 10:33:52 Adding schedule to database
+INFO  12-18 10:34:12 Logging out user : John
+INFO  12-18 10:34:16 Displaying Login Page
+INFO  12-18 11:14:50 Application started. Press Ctrl+C to shut down.
+INFO  12-18 11:14:50 Application started. Press Ctrl+C to shut down.
+INFO  12-18 11:14:50 Hosting environment: Development
+INFO  12-18 11:14:50 Hosting environment: Development
+INFO  12-18 11:14:50 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 11:14:50 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 11:14:50 token not found
+INFO  12-18 11:14:51 Displaying Login Page
+INFO  12-18 11:15:05 success response received
+INFO  12-18 11:15:05 Displaying Home Page
+INFO  12-18 11:15:10 Displaying Schedule input page
+INFO  12-18 11:15:10 response received
+INFO  12-18 11:15:10 stock received
+INFO  12-18 11:15:10 stock converted to demand
+INFO  12-18 11:15:15 response received
+INFO  12-18 11:15:15 Supply received
+INFO  12-18 11:15:15 Displaying Supply List
+INFO  12-18 11:15:15 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:15:29 Adding supplies to database
+INFO  12-18 11:17:22 Displaying Schedule input page
+INFO  12-18 11:17:22 response received
+INFO  12-18 11:17:22 stock received
+INFO  12-18 11:17:22 stock converted to demand
+INFO  12-18 11:45:28 Application started. Press Ctrl+C to shut down.
+INFO  12-18 11:45:29 Application started. Press Ctrl+C to shut down.
+INFO  12-18 11:45:29 Hosting environment: Development
+INFO  12-18 11:45:29 Hosting environment: Development
+INFO  12-18 11:45:29 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 11:45:29 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 11:45:29 token not found
+INFO  12-18 11:45:29 Displaying Login Page
+INFO  12-18 11:47:37 success response received
+INFO  12-18 11:47:37 Displaying Home Page
+INFO  12-18 11:47:41 Displaying Schedule input page
+INFO  12-18 11:47:41 response received
+INFO  12-18 11:47:41 stock received
+INFO  12-18 11:47:41 stock converted to demand
+INFO  12-18 11:47:51 response received
+ERROR 12-18 11:47:51 error while getting supply
+INFO  12-18 11:47:54 Displaying Schedule input page
+INFO  12-18 11:47:54 response received
+INFO  12-18 11:47:54 stock received
+INFO  12-18 11:47:54 stock converted to demand
+INFO  12-18 11:47:59 response received
+ERROR 12-18 11:47:59 error while getting supply
+INFO  12-18 11:48:02 Displaying Schedule input page
+INFO  12-18 11:48:03 response received
+INFO  12-18 11:48:03 stock received
+INFO  12-18 11:48:03 stock converted to demand
+INFO  12-18 11:48:33 response received
+INFO  12-18 11:48:33 Supply received
+INFO  12-18 11:48:33 Displaying Supply List
+INFO  12-18 11:48:33 Adding supplies to database
+INFO  12-18 11:48:37 Adding supplies to database
+INFO  12-18 11:48:37 Adding supplies to database
+INFO  12-18 11:49:56 Application started. Press Ctrl+C to shut down.
+INFO  12-18 11:49:56 Application started. Press Ctrl+C to shut down.
+INFO  12-18 11:49:56 Hosting environment: Development
+INFO  12-18 11:49:56 Hosting environment: Development
+INFO  12-18 11:49:56 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 11:49:56 Content root path: C:\Users\wasim\OneDrive\Desktop\MFPE Local\PharmacyMedicineSupplyManagement-1\PharmacyMedicineSupplyApp
+INFO  12-18 11:49:57 token not found
+INFO  12-18 11:49:57 Displaying Login Page
+INFO  12-18 11:50:07 success response received
+INFO  12-18 11:50:07 Displaying Home Page
+INFO  12-18 11:50:10 Displaying Schedule input page
+INFO  12-18 11:50:11 response received
+INFO  12-18 11:50:11 stock received
+INFO  12-18 11:50:11 stock converted to demand
+INFO  12-18 11:50:17 response received
+INFO  12-18 11:50:33 Logging out user : John
+INFO  12-18 11:50:35 Displaying Login Page

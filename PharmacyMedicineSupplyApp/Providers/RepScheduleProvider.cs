@@ -51,7 +51,7 @@ namespace PharmacyMedicineSupply.Providers
                 client.DefaultRequestHeaders.Authorization =
                     new AuthenticationHeaderValue("Bearer", token);
                 string s = (startDate.Day).ToString() + startDate.ToString("MMM") + (startDate.Year).ToString();
-                var response = await client.GetAsync("https://localhost:44387/api/RepSchedule?startdate=" + s);
+                var response = await client.GetAsync("https://localhost:44369/api/RepSchedule?startdate=" + s);
                 _log.Info("response received");
                 return response;
             }

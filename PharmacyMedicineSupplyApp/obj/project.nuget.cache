@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B/FP1gqnwvDBrp2ukA8Vh/bIsDoolXoy8fM6wnJf+rDMJ4YaYWJNbKJ4oY6B+Cnb8o63McJ1UdCjiEgAK1U46A==",
+  "dgSpecHash": "H9wTih6Sl+AIYY4mDWXoLbH/iq2hdqSZJKC6UoTr6AFGvMz1h2KnAo310mnbYVCzGNCzr04tsOOan1FJ6y2Auw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE\\PharmacyMedicineSupplyApp\\PharmacyMedicineSupply.csproj",
+  "projectFilePath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\PharmacyMedicineSupplyApp\\PharmacyMedicineSupply.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wasim\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\wasim\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",

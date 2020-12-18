@@ -9145,11 +9145,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE\\Authentication\\AuthService\\AuthService.csproj",
+      "projectUniqueName": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\AuthService\\AuthService.csproj",
       "projectName": "AuthService",
-      "projectPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE\\Authentication\\AuthService\\AuthService.csproj",
+      "projectPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\AuthService\\AuthService.csproj",
       "packagesPath": "C:\\Users\\wasim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE\\Authentication\\AuthService\\obj\\",
+      "outputPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\AuthService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wasim\\AppData\\Roaming\\NuGet\\NuGet.Config",

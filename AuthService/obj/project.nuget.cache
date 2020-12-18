@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QmFrzzeCswE0ydxWkcBp3FRR5mau201KotRoQ/lbqT86Ds4BUmelDSfGwm0m7iNVx0fbvoQ4wKMdw38chwHGig==",
+  "dgSpecHash": "A2ln1u4zeer+vzfc7x5Jw+K2RbiB7VE79dzpLm1oq320eWaYGXfFPKUdZwgU4gRyEo/qQi1miq6YYsYOKx97IA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE\\Authentication\\AuthService\\AuthService.csproj",
+  "projectFilePath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE Local - Copy\\PharmacyMedicineSupplyManagement-1\\AuthService\\AuthService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wasim\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\wasim\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",

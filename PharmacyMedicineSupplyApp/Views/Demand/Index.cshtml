@@ -23,7 +23,7 @@
             @Html.HiddenFor(m => Model[i].MedicineName)
         </div>
         <div class="col-4">
-            @Html.TextBoxFor(m=>Model[i].Count)
+            @Html.EditorFor(m=>Model[i].Count,new {htmlAttributes = new {min=0}})
         </div>
     </div>
 }

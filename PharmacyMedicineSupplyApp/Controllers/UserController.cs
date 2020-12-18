@@ -22,7 +22,7 @@ namespace PharmacyMedicineSupply.Controllers
         {
             _userProvider = userProvider;
         }
-        
+
         public IActionResult Index()
         {
             try
@@ -40,7 +40,7 @@ namespace PharmacyMedicineSupply.Controllers
             }
             catch (Exception e)
             {
-                _log.Error("Error in UserController - "+e.Message);
+                _log.Error("Error in UserController - " + e.Message);
                 return View("Error");
             }
         }
@@ -48,12 +48,20 @@ namespace PharmacyMedicineSupply.Controllers
         {
             try
             {
-                _log.Info("Displaying Login Page");
-                return View();
+                if (HttpContext.Session.GetString("token") != null)
+                {
+                    _log.Info("Already logged in");
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    _log.Info("Displaying Login Page");
+                    return View();
+                }
             }
             catch (Exception e)
             {
-                _log.Error("Error in UserController while displaying login page - "+e.Message);
+                _log.Error("Error in UserController while displaying login page - " + e.Message);
                 return View("Error");
             }
         }
@@ -64,20 +72,20 @@ namespace PharmacyMedicineSupply.Controllers
         {
             try
             {
-                HttpResponseMessage response = await  _userProvider.Login(credentials);
+                HttpResponseMessage response = await _userProvider.Login(credentials);
                 if (response.IsSuccessStatusCode)
                 {
                     _log.Info("success response received");
                     var result = await response.Content.ReadAsStringAsync();
                     JWT token = JsonConvert.DeserializeObject<JWT>(result);
-                    HttpContext.Session.SetString("token",token.Token);
+                    HttpContext.Session.SetString("token", token.Token);
                     HttpContext.Session.SetString("userName", credentials.UserName);
                     ViewBag.UserName = credentials.UserName;
-                    return View("Index");
+                    return RedirectToAction("Index");
                 }
-                else if(response.StatusCode == HttpStatusCode.NotFound)
+                else if (response.StatusCode == HttpStatusCode.NotFound)
                 {
-                    _log.Info("invalid username or password for user : "+credentials.UserName);
+                    _log.Info("invalid username or password for user : " + credentials.UserName);
                     ViewBag.Info = "Invalid username/password";
                     return View();
                 }
@@ -89,7 +97,7 @@ namespace PharmacyMedicineSupply.Controllers
             }
             catch (Exception e)
             {
-                _log.Error("Error in UserController while logging in for user : "+credentials.UserName+" - " + e.Message);
+                _log.Error("Error in UserController while logging in for user : " + credentials.UserName + " - " + e.Message);
                 return View("Error");
             }
         }
@@ -97,24 +105,32 @@ namespace PharmacyMedicineSupply.Controllers
         {
             try
             {
-                _log.Info("Logging out user : "+HttpContext.Session.GetString("userName"));
+                _log.Info("Logging out user : " + HttpContext.Session.GetString("userName"));
                 HttpContext.Session.Remove("token");
                 HttpContext.Session.Remove("userName");
                 return View();
             }
             catch (Exception e)
             {
-                _log.Error("Error in UserController while logging out for user : "+HttpContext.Session.GetString("userName")+" - " + e.Message);
+                _log.Error("Error in UserController while logging out for user : " + HttpContext.Session.GetString("userName") + " - " + e.Message);
                 return View("Error");
             }
         }
-        
+
         public IActionResult Contact()
         {
             try
             {
-                _log.Info("Showing Contact Details");
-                return View("Contact");
+                if (HttpContext.Session.GetString("token") == null)
+                {
+                    _log.Info("token not found");
+                    return RedirectToAction("Login");
+                }
+                else
+                {
+                    _log.Info("Showing Contact Details");
+                    return View("Contact");
+                }
             }
             catch (Exception e)
             {
